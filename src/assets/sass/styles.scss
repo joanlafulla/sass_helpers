@@ -1,0 +1,7 @@
+@import '_helpers';
+
+body {
+	background: pink;
+	@include clearfix;
+	@include prefix(box-sizing, border-box, webkit moz);
+}
