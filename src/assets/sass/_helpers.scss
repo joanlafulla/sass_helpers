@@ -1,6 +1,6 @@
 //General clearfix
 
-@mixin clearfix() {
+@mixin clearfix {
     &:before,
     &:after {
         content: "";
@@ -20,5 +20,11 @@
         }
       }
       #{$property}: #{$value};
+}
+
+%ellipsis {
+	overflow: hidden;
+  	white-space: nowrap;
+  	text-overflow: ellipsis;
 }
 

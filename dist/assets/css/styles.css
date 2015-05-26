@@ -1,3 +1,8 @@
+.ellipsis {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis; }
+
 body {
   background: pink;
   -webkit-box-sizing: border-box;
@@ -8,3 +13,7 @@ body {
     display: table; }
   body:after {
     clear: both; }
+
+.ellipsis {
+  width: 100px;
+  display: block; }

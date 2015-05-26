@@ -5,3 +5,9 @@ body {
 	@include clearfix;
 	@include prefix(box-sizing, border-box, webkit moz);
 }
+
+.ellipsis {
+	@extend %ellipsis;
+	width: 100px;
+	display: block;
+}
